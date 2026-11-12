@@ -1,0 +1,18 @@
+# Classic radios and nav
+
+**Made for fun, not tested on a FIP yet.** Testers welcome: if something's off, fix it in your fork and share it.
+
+![Classic radios and nav](../../previews/Classic%20radios%20and%20nav.png)
+
+6 gauges. **Download this set: [Classic radios and nav.zip](../../downloads/Classic%20radios%20and%20nav.zip)**, unzip it, and add the folder in SPAD.neXt (see the [front page](../../README.md)). Or get every set at once: [All gauges.zip](../../downloads/All%20gauges.zip).
+
+| Gauge | | About it |
+|---|---|---|
+| **Classic Course - ILS** | <img src="../../previews/Classic%20radios%20and%20nav/Classic%20Course%20-%20ILS.png" width="200" alt="Classic Course - ILS"> | Course indicator in DC-6 style for NAV 1: course card turned by the OBS, vertical bar for VOR/localizer deviation (or GPS track deviation when the GPS drives NAV 1, with an amber GPS light), horizontal bar for glideslope, TO/FROM triangles, a digital course readout, and red flags when there's no localizer or glideslope signal. |
+| **Classic DME + GPS** | <img src="../../previews/Classic%20radios%20and%20nav/Classic%20DME%20+%20GPS.png" width="200" alt="Classic DME + GPS"> | Digital readout: DME 2 distance (nautical miles), NAV 2 frequency, magnetic bearing to the NAV 2 station, and time to the station at the current groundspeed, GPS distance and time to the next waypoint, and GPS groundspeed. Shows dashes when there's no DME signal, no VOR signal (bearing only: with no VOR the sim reports radial 0), groundspeed under 30 kt (time only), or no active GPS waypoint. DME 1 belongs with the ILS on NAV 1. |
+| **Classic RMI ADF** | <img src="../../previews/Classic%20radios%20and%20nav/Classic%20RMI%20ADF.png" width="200" alt="Classic RMI ADF"> | Radio magnetic indicator in DC-6 style: compass card turning with heading, single-line needle for ADF 1 and double-line needle for ADF 2. Needles rest at 3 o'clock when their ADF has no signal. |
+| **Classic RMI VOR 1 + VOR 2 + ADF 1 + ADF 2** | <img src="../../previews/Classic%20radios%20and%20nav/Classic%20RMI%20VOR%201%20+%20VOR%202%20+%20ADF%201%20+%20ADF%202.png" width="200" alt="Classic RMI VOR 1 + VOR 2 + ADF 1 + ADF 2"> | Four-needle radio magnetic indicator for panels with fewer FIPs: compass card turning with heading, yellow needles point to the VOR 1 (single line) and VOR 2 (double line) stations, light needles point to the ADF 1 (single line) and ADF 2 (double line) stations. Each needle rests at 3 o'clock with no signal. Orange heading bug on the card shows the autopilot heading; the knobs move it (right 1 degree, left 10 degrees per click); its setting also shows as 3 digits in the upper right. |
+| **Classic RMI VOR 2 + ADF 1** | <img src="../../previews/Classic%20radios%20and%20nav/Classic%20RMI%20VOR%202%20+%20ADF%201.png" width="200" alt="Classic RMI VOR 2 + ADF 1"> | Radio magnetic indicator in DC-6 style: compass card turning with heading, single-line needle pointing to the VOR 2 station (VOR 1 / NAV 1 drives the course/ILS gauge), double-line needle pointing to the ADF 1 station. Each needle rests at 3 o'clock with no signal. Orange heading bug on the card shows the autopilot heading; the knobs move it (right 1 degree, left 10 degrees per click); its setting also shows as 3 digits in the upper right. |
+| **Classic RMI VOR** | <img src="../../previews/Classic%20radios%20and%20nav/Classic%20RMI%20VOR.png" width="200" alt="Classic RMI VOR"> | Radio magnetic indicator in DC-6 style for the VOR receivers: compass card turning with heading, single-line needle for VOR 1 and double-line needle for VOR 2, pointing to the station. Needles rest at 3 o'clock with no VOR signal. |
+
+Free and open source (AGPL-3.0), made from scratch. See the [front page](../../README.md).
