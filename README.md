@@ -88,6 +88,21 @@ No installer: just a zip.
 
 To update: download again and replace the folder.
 
+## SPAD.neXt settings that may help
+
+In SPAD.neXt: **Settings > Devices > Saitek/Logitech devices > FIP Configuration**. I haven't tried these with
+these gauges, and SPAD.neXt's docs don't explain them, so this is going by their names. If you try one, say in an
+issue what happened.
+
+- **Boost FIP rendering (more CPU use!)**: may make fast needles smoother (the altimeter in a climb, say), at
+  the cost of more CPU. Try it if a gauge looks jerky.
+- **Use default paging buttons**: SPAD.neXt seems to keep the page up/down buttons for flipping between gauges
+  while this is on. Worth trying off if a gauge's own buttons don't seem to do anything.
+- **Virtual power support**: probably blanks the FIPs while the plane has no electrical power.
+
+If you fly something you care about with SPAD.neXt (your own profiles and panels), note these settings before you
+change them, so you can put them back.
+
 ## Works with
 
 Made for **Windows 11 and MSFS 2024**. The gauges use the sim's standard values and commands, so they *might*
