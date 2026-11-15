@@ -24,7 +24,9 @@ official interface (SimConnect).
 ## The story
 
 I made FIPinator for my own PMDG DC-6 in MSFS 2024, and that's mostly what I fly. The DC-6 gauges are the ones
-I really know work. I've also flown some with the Boeing 727 and the Saab 340B and fixed what I found. The rest
+I really know work. I've also flown some with the Saab 340B and fixed what I found. The Boeing 727 gauges **need
+more testing**: the 727 is an add-on plane (the FSS 727), and it doesn't use all of the sim's standard values the way
+Asobo's planes do, so some gauges may not follow its cockpit. The rest
 (classic singles and twins, Cessna 404 Titan, Caravan, 737 MAX, radios, autopilot and more) I made for fun.
 **Not every gauge has been tested**: most work, some may need work, and the basic layout of every gauge is already
 there, so fixing one is usually a small job. If you know your way around SPAD.neXt gauges, or have an AI helper
@@ -55,6 +57,8 @@ soon. The Asobo 737 MAX gauges (Dual jet groups) do work with that plane.
   whole numbers aren't affected. Not fixed yet; FIPinator Live shows them right.
 - On the HSIs, whether SPAD.neXt slides the course bar the right way (left/right) hasn't been checked on a FIP yet.
   The ILS/course gauges and FIPinator Live are checked.
+- The Boeing 727 gauges need more testing. The 727 is an add-on (FSS), not an Asobo plane, and doesn't use all of
+  the sim's standard values, so a gauge may not match its cockpit.
 
 ## Testers wanted
 
@@ -142,7 +146,7 @@ accessory, **FIPinator 3000**, changes panels and gauges and can save them for S
 - [**Dual turboprop**](gauges/Dual%20turboprop/README.md): 8 gauges (partly flown with)
 - [**Gear, flaps and trim**](gauges/Gear,%20flaps%20and%20trim/README.md): 3 gauges
 - [**Single turboprop**](gauges/Single%20turboprop/README.md): 6 gauges
-- [**Triple jet (Boeing 727)**](gauges/Triple%20jet%20%28Boeing%20727%29/README.md): 34 gauges (partly flown with)
+- [**Triple jet (Boeing 727)**](gauges/Triple%20jet%20%28Boeing%20727%29/README.md): 34 gauges (needs more testing: add-on plane)
 - [**Warnings and lights**](gauges/Warnings%20and%20lights/README.md): 2 gauges
 - [**Weather and small gauges**](gauges/Weather%20and%20small%20gauges/README.md): 3 gauges
 
