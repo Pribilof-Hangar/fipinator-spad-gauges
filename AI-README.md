@@ -70,7 +70,7 @@ fixes in the FIPinator project reach everyone.
 - **Decision height knob:** `INCREASE_DECISION_HEIGHT` / `DECREASE_DECISION_HEIGHT` (1 m per click). Like the
   attitude bars, `DECISION_HEIGHT_INC` / `_DEC` are only internal names.
 - **Bank** (`ATTITUDE INDICATOR BANK DEGREES`, `PLANE BANK DEGREES`): **a left bank is positive.**
-- **N1/N2:** the Asobo 737 MAX display shows `TURB ENG CORRECTED N1` / `N2`; the Asobo 727 shows the plain `TURB ENG N1`.
+- **N1/N2:** the Asobo 737 MAX display shows `TURB ENG CORRECTED N1` / `N2`; the FSS 727 (an add-on) shows the plain `TURB ENG N1`.
 
 ## Finding problems
 
@@ -88,6 +88,13 @@ fixes in the FIPinator project reach everyone.
   commands (e.g. `B:FCC_HEADING_SEL`), not the standard heading-bug events. Not worked out.
 - **SPAD.neXt percent numbers:** N1 41.5 showed as 41.0 on the FIP (decimals cut off). Not solved; first test idea:
   a number with and without `abs`, and `percent over 100` x 100 instead of `percent`.
+
+## The 727: needs more testing
+
+- **FSS 727:** an add-on plane, not one of Asobo's. It doesn't use all of the sim's standard values, so a gauge
+  reading a standard value may not match its cockpit. Some gauges were flown with in FIPinator Live, not yet in
+  SPAD.neXt on a FIP. When one is off, check whether the plane keeps that number in its own variable (`L:`) or uses
+  its own knob command instead of the standard event.
 
 ## Change a gauge with your AI
 

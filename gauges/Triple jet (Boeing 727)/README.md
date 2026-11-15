@@ -1,6 +1,6 @@
 # Triple jet (Boeing 727)
 
-**Partly flown with**: some of these were flown with in FIPinator Live (the SPAD.neXt versions are made from the same files), not all of them. Testers welcome: if something's off, fix it in your fork and share it.
+**Needs more testing.** The 727 is an add-on plane (the FSS 727), not one of Asobo's, and it doesn't use all of the sim's standard values, so some of these gauges may not follow its cockpit. Some were flown with in FIPinator Live (the SPAD.neXt versions are made from the same files), not all of them, and not yet on a FIP in SPAD.neXt. Testers welcome: if something's off, fix it in your fork and share it.
 
 ![Triple jet (Boeing 727)](../../previews/Triple%20jet%20%28Boeing%20727%29.png)
 
