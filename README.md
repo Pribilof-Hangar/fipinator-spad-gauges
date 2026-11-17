@@ -7,6 +7,15 @@
 No cost, no account, no catch. Licence: AGPL-3.0: use it, change it, share it. If you share a changed version,
 share its source too, so it stays free for everyone.
 
+**[Download All gauges.zip](downloads/All%20gauges.zip)** (about 13 MB, every set; for SPAD.neXt and MSFS 2024).
+No installer: unzip it and add the folder in SPAD.neXt (see [How to use them](#how-to-use-them)).
+
+| | |
+|---|---|
+| **[FIPinator Live](https://github.com/Pribilof-Hangar/fipinator-live)** | The main app: runs your FIPs from the sim, without SPAD.neXt. |
+| **[FIPinator 3000](https://github.com/Pribilof-Hangar/fipinator-3000)** | Live's accessory: set up your panel like your desk, layouts, colours, combine gauges. |
+| **[FIPinator gauges for SPAD.neXt](https://github.com/Pribilof-Hangar/fipinator-spad-gauges)** (you are here) | A full-on SPAD.neXt person? The same gauges as SPAD.neXt gauges (a port, less tested). |
+
 ## What's a FIP?
 
 A FIP is the **Logitech (formerly Saitek) Flight Instrument Panel**: a small USB screen (320 x 240) with six
