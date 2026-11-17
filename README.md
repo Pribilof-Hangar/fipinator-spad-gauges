@@ -10,11 +10,14 @@ share its source too, so it stays free for everyone.
 **[Download All gauges.zip](downloads/All%20gauges.zip)** (about 13 MB, every set; for SPAD.neXt and MSFS 2024).
 No installer: unzip it and add the folder in SPAD.neXt (see [How to use them](#how-to-use-them)).
 
+These gauges only need SPAD.neXt. FIPinator Live and FIPinator 3000 are separate, optional free apps from the same
+project: you don't need them here.
+
 | | |
 |---|---|
-| **[FIPinator Live](https://github.com/Pribilof-Hangar/fipinator-live)** | The main app: runs your FIPs from the sim, without SPAD.neXt. |
-| **[FIPinator 3000](https://github.com/Pribilof-Hangar/fipinator-3000)** | Live's accessory: set up your panel like your desk, layouts, colours, combine gauges. |
-| **[FIPinator gauges for SPAD.neXt](https://github.com/Pribilof-Hangar/fipinator-spad-gauges)** (you are here) | A full-on SPAD.neXt person? The same gauges as SPAD.neXt gauges (a port, less tested). |
+| **[FIPinator Live](https://github.com/Pribilof-Hangar/fipinator-live)** (optional) | A free app that runs FIPs from the sim on its own, instead of SPAD.neXt. Not needed for these gauges. |
+| **[FIPinator 3000](https://github.com/Pribilof-Hangar/fipinator-3000)** (optional) | Live's accessory for changing panels and gauges. Not needed for SPAD.neXt. |
+| **[FIPinator gauges for SPAD.neXt](https://github.com/Pribilof-Hangar/fipinator-spad-gauges)** (you are here) | The gauges for SPAD.neXt: all you need if you use SPAD.neXt. |
 
 ## What's a FIP?
 
